@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+/* a {
+  text-decoration: none;
+} */
+.footerbackground {
+  background: url(./comcon/footerbackground.png) no-repeat;
+  background-position: center;
+  height: 40.125rem;
+  padding-top: 5rem;
+  margin-top: 6rem;
+  background-size: 90rem 40rem;
+}
+.footerList div a {
+  color: #8f8f98;
+  font-size: 1rem;
+  font-family: Geomanist, sans-serif;
+  line-height: 1.875rem;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 650px) {
+  .investfont {
+    font-size: 1.7rem !important;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 991.99px) {
+  .headerphone {
+    width: 100%;
+  }
+  .cardimage {
+    width: 14rem;
+    height: auto;
+  }
+  .phone2 {
+    width: 25rem;
+  }
+  .investfont {
+    font-size: 2rem;
+  }
+  .investbutton {
+    width: 12rem;
+    height: 3.3rem;
+  }
+}
+@media (min-width: 992px) {
+  .investbutton {
+    width: 16rem;
+    height: 4rem;
+  }
+  .footerbackground {
+  }
+  .fini {
+    margin-left: 4rem;
+  }
+  .phone2 {
+    width: 25rem;
+  }
+  .investfont {
+    font-size: 2.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px) {
+  .forleft2 {
+    margin-left: 4rem;
   }
-  to {
-    transform: rotate(360deg);
+  .headerback {
+    height: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerphone {
+    width: 35.45381rem;
+    height: 38rem;
+  }
+  .Access {
+    width: 34.125rem;
+  }
+  .forleft {
+    margin-left: 4rem;
+  }
+  .cardstart {
+    width: 28.81rem;
+    height: 29.743rem;
+  }
+  .cardstart1 {
+    width: 28.81rem;
+    height: 29.743rem;
+  }
+  .phone2 {
+    width: 34.66rem;
+  }
+}
+
+@media (max-width: 768.99px) {
+  .headerback {
+    height: 1129px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accessm {
+    margin-top: 4rem !important;
+  }
+
+  .headerbuilt {
+    text-align: center;
+  }
+
+  .Access {
+    text-align: center;
+  }
+}
+@media (max-width: 1199.99px) {
+  .cardstart {
+    width: 20rem;
+    height: auto;
+  }
+  .cardstart1 {
+    width: 20rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 1393px) {
+  .card3 {
+    width: 22.68rem;
+    height: 26.68rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1315px) and (max-width: 1392.99px) {
+  .card3 {
+    width: 34rem;
+    height: 24rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1314.99px) {
+  .card3 {
+    height: 20rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1240.1px) {
+  .usd1 {
+    width: 48.56rem;
+    height: 35.125rem;
+  }
+}
+
+@media (max-width: 1240px) and (min-width: 1110px) {
+  .usd1 {
+    width: 40rem;
+    height: auto;
+  }
+}
+@media (max-width: 1109.99px) and (min-width: 942px) {
+  .usd1 {
+    width: 30rem;
+    height: auto;
+  }
+}
+@media (max-width: 941.9999px) and (min-width: 872px) {
+  .usd1 {
+    width: 25rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 871.99px) and (min-width: 768px) {
+  .usd1 {
+    width: 20rem;
+    height: auto;
+  }
+}
+@media (max-width: 767.99rem) {
+  .usd1 {
+    width: 30rem;
+    height: auto;
   }
 }

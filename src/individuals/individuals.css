@@ -1,0 +1,43 @@
+.anew {
+  color: #393939;
+  font-size: 1.5rem;
+  font-family: Geomanist, sans-serif;
+}
+.built {
+  color: #393939;
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: Geomanist, sans-serif;
+  font-weight: 700;
+  margin-top: -2rem;
+}
+.built span {
+  color: rgba(142, 95, 245, 1);
+}
+
+.verified {
+  color: #393939;
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: Geomanist, sans-serif;
+  line-height: 1.875rem;
+}
+.create {
+  color: #393939;
+  font-size: 1.125rem;
+  font-family: Geomanist, sans-serif;
+  line-height: 1.875rem;
+}
+.imgplay {
+  width: 10.5rem;
+  height: 3.3125rem;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #000;
+}
+.imgplay img {
+  width: 8.2035rem;
+  height: 2.38294rem;
+  flex-shrink: 0;
+  border-radius: 50px;
+}
